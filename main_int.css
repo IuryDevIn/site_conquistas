@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, section h2, section h3, section h4,  form button{
+    font-family: 'Bungee', cursive; 
+    font-weight: normal;
+}
+
+body, input, textarea, .container {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+header{
+    padding: 16x;
+    background-color: rgb(170, 33, 33);
+    color: aliceblue;
+}
+
+header .container img, h1{
+    margin-top: 8px;
+    margin-left: 16px;
+}
+
+header nav li{
+    display:inline;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+header nav li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.container,{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+header .palavras,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section p, h2, h3, h4{
+    margin-bottom: 8px;
+    margin-right: 32px;
+    margin-left: 16px;
+}
+
+.imagem-capa{
+    margin-left: 16px;
+    margin-top: 8px;
+}
+
+/*-------------------------------------------*/
+
+header .mundiial{
+    display: flex;
+    align-items: center;
+
+}
+
+.imagem-taça{
+    margin-left: 24px;
+    margin-right: 8px;
+}
+
+.text-int{
+    color: red;
+}
+
+.text-bar{
+    color: rgb(99, 21, 85);
+}
+
+.contact-methods{
+    display: block;
+    position: relative;
+    position: left;
+
+}
+
+form input, form textarea, form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 16px;
+    padding: 8px;
+    margin-right: 16px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    cursor: pointer;
+    background-color: rgb(170, 33, 33) ;
+    color: #ffff;
+    border: none;
+}
+
+.text-fale{
+    color: rgb(170, 33, 33) ;
+}
+
+
+
